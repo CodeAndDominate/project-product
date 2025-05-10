@@ -15,7 +15,7 @@ import java.util.function.Predicate;
 
 @RequiredArgsConstructor
 public class ProductDao {
-    private final String filePath = "C:/Users/Azerty/IdeaProjects/project-product/products.json";
+    private final String filePath = "path-to-your/products.json";
     private final ObjectMapper objectMapper;
 
     @SneakyThrows

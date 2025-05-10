@@ -12,7 +12,7 @@ import java.util.List;
 
 @RequiredArgsConstructor
 public class UserDao {
-    private final String filePath = "C:/Users/Azerty/IdeaProjects/project-product/users.json";
+    private final String filePath = "path-to-your/users.json";
     private final ObjectMapper objectMapper;
 
     @SneakyThrows
